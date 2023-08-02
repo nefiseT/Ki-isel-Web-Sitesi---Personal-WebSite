@@ -1,5 +1,8 @@
 body{
-	background-color: #d9d9d9
+	background-color: #bcd8ad ;
+	Margin : 0;
+	Padding : 0;
+	Min-height : 100vh;
 	
 }
 
@@ -13,8 +16,8 @@ header{
 
 p.başlık {
 	color: #330066 ;
-	text-align: center ; 
-	font-style: italic ; 
+	text-align: center ;
+	font-style: italic ;
 	font-weight: 800 ;
 	font-size: 23px
 }
@@ -26,12 +29,20 @@ table.hakkımda{
 	font-size: 19px ;
 }
 
-					/* Saat için*/
+.meme1{
+	display : flex;
+	flex-direction : column;
+	align : items center;
+}
 
+
+
+
+					/* Saat için*/
 #canvas 
 {
 	display: inline ;
-    background-color:#d9d9d9;
+    background-color:#ffffff;
 	margin-left: 1200px ;
 	margin-top: 40px ;
 	position: relative ;
@@ -45,8 +56,8 @@ a:link{
 
 a:visited{
 	color: red ;
-	text-decoration: none ;	
-	
+	text-decoration: none ;
+
 }
 
 a:hover{
@@ -67,7 +78,7 @@ progress{
 	height: 30px ;
 }
 
-						/*iletişim formu */
+			/*iletişim formu */
 .form1 {
 	font-family: Arial, Helvetica, sans-serif;}
 * {box-sizing: border-box;}
