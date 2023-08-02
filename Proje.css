@@ -1,0 +1,115 @@
+body{
+	background-color: #d9d9d9
+	
+}
+
+header{
+	color:#4d004d ;
+	text-align: center ;
+	font-family: "Sofia", sans-serif;
+	font-size: 34px ;
+	margin-top: 40px;
+}
+
+p.başlık {
+	color: #330066 ;
+	text-align: center ; 
+	font-style: italic ; 
+	font-weight: 800 ;
+	font-size: 23px
+}
+table.hakkımda{
+	text-align: center;
+	padding : 4px;
+	float:center;
+	border-spacing: 5px;
+	font-size: 19px ;
+}
+
+					/* Saat için*/
+
+#canvas 
+{
+	display: inline ;
+    background-color:#d9d9d9;
+	margin-left: 1200px ;
+	margin-top: 40px ;
+	position: relative ;
+}
+
+
+a:link{
+	color: blue ;
+	text-decoration: underline ;
+}
+
+a:visited{
+	color: red ;
+	text-decoration: none ;	
+	
+}
+
+a:hover{
+	color: green ;
+	text-decoration: underline ;
+	border-bottom: double ;
+}
+
+.cv1{
+	list-style-type: none ;
+}
+
+.ProgressBarHtml{
+	color: red ;
+}
+
+progress{
+	height: 30px ;
+}
+
+						/*iletişim formu */
+.form1 {
+	font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #80ccff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+/* i letişişm formu */
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: %70 ;
+  height: 600px ;
+  position: relative ;
+  left: 20px ;
+  right: 20px ;
+  top: 50px ;
+}
+
+/* form sonu */
+
