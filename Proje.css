@@ -1,126 +1,84 @@
-body{
-	background-color: #adadeb;
-	Margin : 0;
-	Padding : 0;
-	Min-height : 100vh;
-	
-}
+font-family: 'Open Sans', sans-serif;
+font-family: 'Lato', sans-serif;
 
-header{
-	color:#4d004d ;
-	text-align: center ;
-	font-family: "Sofia", sans-serif;
-	font-size: 34px ;
-	margin-top: 40px;
-}
-
-p.başlık {
-	color: #330066 ;
-	text-align: center ;
-	font-style: italic ;
-	font-weight: 800 ;
-	font-size: 23px
-}
-table.hakkımda{
-	text-align: center;
-	padding : 4px;
-	float:center;
-	border-spacing: 5px;
-	font-size: 19px ;
-}
-
-.meme1{
-	display : flex;
-	flex-direction : column;
-	align : items center;
-}
-
-
-
-
-					/* Saat için*/
-#canvas 
+.navbar 
 {
-	display: inline ;
-    background-color:#ffffff;
-	margin-left: 1200px ;
-	margin-top: 40px ;
-	position: relative ;
+	opacity: 0.8;
+	border-bottom: 1px solid #fff;
 }
 
-
-a:link{
-	color: blue ;
-	text-decoration: underline ;
+.nav-item:hover {
+	color: blue;
 }
 
-a:visited{
-	color: red ;
-	text-decoration: none ;
-
+.jumbotron 
+{
+	padding-top: 100px;
 }
 
-a:hover{
-	color: green ;
-	text-decoration: underline ;
-	border-bottom: double ;
+.fa-ellipsis-v
+{
+	color: #fff;
 }
 
-.cv1{
-	list-style-type: none ;
+.container.a
+{
+	color: #fff;
 }
 
-.ProgressBarHtml{
-	color: red ;
+main
+{
+	font-family: 'Open Sans', sans-serif;
 }
 
-progress{
-	height: 30px ;
+main img
+{
+	width: 100%;
+	height: auto;	
 }
 
-			/*iletişim formu */
-.form1 {
-	font-family: Arial, Helvetica, sans-serif;}
-* {box-sizing: border-box;}
-
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
+main p i
+{
+	font-size: 0.8rem;
 }
 
-input[type=submit] {
-  background-color: #80ccff;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+.card img 
+{
+	height: 30rem;
+	width: auto;
 }
 
-input[type=submit]:hover {
-  background-color: #45a049;
+.yalova-jumbotron
+{
+	background-image: url(img/yalovam_heykel.jpg);
+	background-size: cover;
+	background-position: 50% 30%;
 }
 
-
-/* i letişişm formu */
-
-.container {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
-  width: %70 ;
-  height: 600px ;
-  position: relative ;
-  left: 20px ;
-  right: 20px ;
-  top: 50px ;
+.mirasimiz-jumbotron
+{
+	background-image: url(img/mirasimiz_yuruyen.jpg);
+	background-size: cover;
+	background-position: 50% 40%;
 }
 
-/* form sonu */
+.karaca-jumbotron
+{
+	background-image: url(img/karaca_karaca.jpg);
+	background-size: cover;
+	background-position: 10% 70%;
+}
 
+.sudusen-jumbotron
+{
+	background-image: url(img/sudusen.jpg);
+	background-size: cover;
+	background-position: 10% 70%;
+}
+
+.kosk-jumbotron
+{
+	background-image: url(img/yalovam_kosk.jpg);
+	background-size: cover;
+	background-position: 10% 70%;
+}
