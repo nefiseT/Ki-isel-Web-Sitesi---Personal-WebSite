@@ -14,3 +14,5 @@ commit tarihi (5): 01.08.2023
 commit tarihi (6): 02.08.2023
 
 commit tarihi (7): 03.08.2023
+
+commit tarihi (8): 04.08.2023
