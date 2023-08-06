@@ -18,7 +18,7 @@ setInterval(() => {
 var ctx;
 var date;
 var size = 80;
-
+   
 function start() 
 {
     var canvas = document.getElementById('canvas');
