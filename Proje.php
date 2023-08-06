@@ -14,6 +14,9 @@ if (isset($_POST['Email'])) {
         die();
     }
 
+
+    
+
     // validation expected data exists
     if (
         !isset($_POST['Name']) ||
@@ -29,12 +32,16 @@ if (isset($_POST['Email'])) {
     $email = $_POST['Email']; // lazım
     $message = $_POST['Message']; // lazım
 
+
+    
     $error_message = "";
     $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
 
+    
     if (!preg_match($email_exp, $email)) {
         $error_message .= 'Geçerli bir mail adresi giriniz.<br>';
     }
+    
 
     $string_exp = "/^[A-Za-z .'-]+$/";
 
@@ -50,6 +57,7 @@ if (isset($_POST['Email'])) {
         problem($error_message);
     }
 
+    
     $email_message = "Form detayları.\n\n";
 
     function clean_string($string)
@@ -58,10 +66,12 @@ if (isset($_POST['Email'])) {
         return str_replace($bad, "", $string);
     }
 
+    
     $email_message .= "Name: " . clean_string($name) . "\n";
     $email_message .= "Email: " . clean_string($email) . "\n";
     $email_message .= "Message: " . clean_string($message) . "\n";
 
+    
     // create email headers
     $headers = 'From: ' . $email . "\r\n" .
         'Reply-To: ' . $email . "\r\n" .
@@ -72,6 +82,9 @@ if (isset($_POST['Email'])) {
     <!-- INCLUDE YOUR SUCCESS MESSAGE BELOW -->
 
     İletişime geçtiğiniz için Teşekkürler. Lütfen tarafımızdan dönüş bekleyin...
+
+
+
 
 <?php
 }
