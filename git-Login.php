@@ -24,6 +24,7 @@
 	<title> Web Teknoloji Projesi Kişisel Web Sitesi Tasarımı </title>
 
 </head>
+	
 
 <body>
 
