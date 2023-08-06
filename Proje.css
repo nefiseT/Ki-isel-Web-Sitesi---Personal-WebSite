@@ -14,9 +14,17 @@ font-family: 'Lato', sans-serif;
 .jumbotron 
 {
 	padding-top: 100px;
+
+	
+
+	
 }
 
+
+
 .fa-ellipsis-v
+
+
 {
 	color: #fff;
 }
@@ -37,7 +45,10 @@ main img
 	height: auto;	
 }
 
-main p i
+main p 
+
+
+
 {
 	font-size: 0.8rem;
 }
@@ -58,27 +69,38 @@ main p i
 
 .mirasimiz-jumbotron
 {
+	
 	background-image: url(img/mirasimiz_yuruyen.jpg);
 	background-size: cover;
-	background-position: 50% 40%;
+
+
+	
+	
 }
 
 .karaca-jumbotron
+
 {
-	background-image: url(img/karaca_karaca.jpg);
+	
 	background-size: cover;
 	background-position: 10% 70%;
+	
 }
 
+
 .sudusen-jumbotron
-{
+
 	background-image: url(img/sudusen.jpg);
 	background-size: cover;
 	background-position: 10% 70%;
 }
 
+
+
+
+
 .kosk-jumbotron
-{
+
 	background-image: url(img/yalovam_kosk.jpg);
 	background-size: cover;
 	background-position: 10% 70%;
