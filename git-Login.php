@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
 
 	<meta charset="utf-8">
@@ -25,9 +24,7 @@
 
 </head>
 	
-
 <body>
-
 
 	<nav class="navbar navbar-expand-sm fixed-top
 	bg-info navbar-white">
@@ -144,4 +141,6 @@
 
 </body>
 
+
+	
 </html>
