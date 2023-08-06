@@ -19,3 +19,6 @@ commit tarihi (8): 04.08.2023    (Burda site tasarımımı değiştirmeye karar 
 
 commit tarihi (9): 05.08.2023
 
+commit tarihi (10): 06.08.2023
+
+
