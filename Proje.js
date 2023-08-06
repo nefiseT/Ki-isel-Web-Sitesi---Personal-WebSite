@@ -28,6 +28,7 @@ function start()
     setInterval(showTime, 1000);
 }
 
+
 function showTime()
 {
     //clear the canvas
