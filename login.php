@@ -9,16 +9,19 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 	<!-- Ikon Kutuphanesi -->
+	
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
 
+	
 	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-
+	
 	<!-- Font -->
-	<link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans&display=swap" rel="stylesheet">
-
+	<link href="https://fonts.googleapis.
+		
 	<!-- Css -->
 	<link rel="stylesheet" href="style.css">
+
+	
 
 	<!--------------------------------->
 	<title> Web Teknoloji Projesi Kişisel Web Sitesi Tasarımı </title>
@@ -38,7 +41,9 @@
 	  		   Nefise
 	      	</a>
 
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
+			
+			<button class="navbar-toggler" type="bu
+				on" data-toggle="collapse" data-target="#navbarCollapse">
 				<span class="navbar-toggler-icon"><i class="fas fa-ellipsis-v"></i></span>
 			</button>
 
