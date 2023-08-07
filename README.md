@@ -19,4 +19,4 @@ commit tarihi (8): 04.08.2023
 
 commit tarihi (10): 06.08.2023   (Tamamlanan dosyaları yenileriyle değiştirdim, eksik dosyalar eklendi)
 
-
+commit tarihi (11): 07.08.2023   (Sitenin son hali tamamlandı, GitHub'a ve okul sistemine yüklendi, WebHosting linki dökümana eklendi)
