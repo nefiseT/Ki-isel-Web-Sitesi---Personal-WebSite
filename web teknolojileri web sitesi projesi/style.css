@@ -92,6 +92,15 @@ main
 	font-family: 'Open Sans', sans-serif;
 }
 
+#error{
+	display: flex;
+  	justify-content: center;
+ 	align-items: center;
+}
+#404{
+	float:center;
+}
+
 main img
 {
 	width: 100%;
