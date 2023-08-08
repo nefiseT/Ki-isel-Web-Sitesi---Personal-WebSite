@@ -66,6 +66,12 @@ a:hover{
   	margin: auto;
 }
 
+#vid2{
+	float:center;
+	display: block;
+  	margin: auto;
+}
+
 #map1{
 	display: flex;
   	justify-content: center;
